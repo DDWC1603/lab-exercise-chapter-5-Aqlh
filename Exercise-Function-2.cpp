@@ -1,23 +1,25 @@
-//this is an unfinish program
+///this is an unfinish program
 //finish up this program
 //AQILAH A17DW2330
 
 #include<iostream>
 using namespace std;
 
-int sum(int x,int y);
+int add(int ,int );
 int main()
 {
-	int result;
-	char x,y;
-	x=3;
-	y=2;
+	int num1, num2, sum;
+	cout<<"Enters two numbers to add: ";
+	cin>>num1>>num2;
 	
-	cout<<"x=3"<<endl;
-	cout<<"y=2"<<endl;
-	
-	result=x+y;
-	cout<<"The result is: "<<result;
-	
-	
+	sum=add(num1,num2);
+	cout<<"Sum = "<<sum;
+	return 0;
+		
+}
+int add(int a, int b)
+{
+	int add;
+	add = a + b;
+	return add;
 }
