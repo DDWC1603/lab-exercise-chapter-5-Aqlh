@@ -29,4 +29,6 @@ void masuk_tak()
 	cout<<endl<<"chantek!"<<endl;
 }
 
+//chage
+
 
